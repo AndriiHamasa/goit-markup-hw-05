@@ -15,6 +15,9 @@ icons
 #Exclude folder with unoptimized sprite
 symbol-defs.svg
 
+#Exclude modal-close.svg file
+modal_close.svg
+
 # Runtime data
 pids
 *.pid
