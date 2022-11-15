@@ -157,11 +157,6 @@ ul {
   fill: currentColor;
 }
 
-.contact-item:hover .contact-icon,
-.contact-item:focus .contact-icon {
-  fill: var(--accent-color);
-}
-
 /*--------MAIN--------*/
 /*----hero----*/
 
@@ -408,8 +403,10 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: #afb1b8;;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /*outline: 1px solid red;*/
 }
@@ -417,17 +414,11 @@ ul {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .socials-icon {
-  fill: #afb1b8; /*color of icons*/
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .card-worker {
@@ -557,6 +548,7 @@ ul {
   align-items: center;
 
   background-color: #44454e;
+  color: #ffffff;
 
   width: 44px;
   height: 44px;
@@ -568,7 +560,7 @@ ul {
 }
 
 .socials-icon-ftr {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .socials-link-ftr:hover,
